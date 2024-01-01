@@ -44,7 +44,7 @@ Rectangle rectangle = (Rectangle) rectangleFactory.getInstance();
 
 Creator
 ```java
-class ShapeFactory extends Creator<Shape2> {
+class ShapeFactory extends Creator<Shape> {
 
     @Override
     protected Shape getInstance(String instanceType) {
